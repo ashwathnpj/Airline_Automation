@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+	  <class name="com.airline.automation.Airline_Automation.Registration_Test"/>
+      <class name="com.airline.automation.Airline_Automation.Login_Invalid_Credentials_Test"/>	  
+      <class name="com.airline.automation.Airline_Automation.Login_Test"/>
+      <class name="com.airline.automation.Airline_Automation.Search_OneWay_Test"/>
+      <class name="com.airline.automation.Airline_Automation.Search_Round_Trip_Test"/>
+      <class name="com.airline.automation.Airline_Automation.Search_Different_Classes_Test"/>
+      <class name="com.airline.automation.Airline_Automation.Seat_Selection_Test"/>
+      <class name="com.airline.automation.Airline_Automation.Multiple_Passengers_Test"/>
+      <class name="com.airline.automation.Airline_Automation.Validate_Flight_Rules"/>
+      <class name="com.airline.automation.Airline_Automation.Enter_Traveller_Details_Test"/>
+      <class name="com.airline.automation.Airline_Automation.Login_Search_Logout_Test"/>
+      <class name="com.airline.automation.Airline_Automation.Coupon_Code_Test"/>
+      <class name="com.airline.automation.Airline_Automation.Search_Domestic_RoundTrip_Flights_Test"/>
+      <class name="com.airline.automation.Airline_Automation.Flight_Payment"/>   
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
